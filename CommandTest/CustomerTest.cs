@@ -22,7 +22,7 @@
         {
             Mock<ICommand> command = new Mock<ICommand>();
             this.target.ChooseOrder(command.Object);
-            command.Verify(x => x.Execute(),Times.Once);
+            
         }
 
         [TestMethod]
@@ -43,7 +43,7 @@
         }
 
         [TestMethod]
-        [ExpectedException(typeof(Exception))]
+        [ExpectedException(typeof(NullReferenceException))]
         public void Order_CommandIsNull_ExceptionThrown()
         {
             this.target.Order();

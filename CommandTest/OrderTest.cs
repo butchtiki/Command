@@ -7,7 +7,7 @@ namespace CommandTest
     using Moq;
 
     [TestClass]
-    public class UnitTest1
+    public class OrderTest
     {
         Order target;
         string orderName;
@@ -32,7 +32,7 @@ namespace CommandTest
         }
 
         [TestMethod]
-        [ExpectedException(typeof(Exception))]
+        [ExpectedException(typeof(NullReferenceException))]
         public void Execute_WaiterIsNull_ExceptionThrown()
         {
             this.target = new Order(null, orderName, count);
