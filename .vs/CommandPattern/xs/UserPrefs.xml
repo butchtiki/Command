@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{34F59BDC-0C7C-4C1F-8669-11FEAF75C61F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommandPattern/Customer.cs">
+    <Files>
+      <File FileName="CommandPattern/Program.cs" Line="13" Column="35" />
+      <File FileName="CommandPattern/ICommand.cs" Line="1" Column="1" />
+      <File FileName="CommandPattern/Order.cs" Line="13" Column="16" />
+      <File FileName="CommandPattern/Waiter.cs" Line="21" Column="10" />
+      <File FileName="CommandPattern/Customer.cs" Line="10" Column="36" />
+      <File FileName="CommandTest/UnitTest1.cs" Line="32" Column="1" />
+      <File FileName="CommandTest/Stubs/StubCommand.cs" Line="1" Column="1" />
+      <File FileName="CommandPattern/IWaiter.cs" Line="5" Column="53" />
+      <File FileName="CommandTest/Stubs/StubWaiter.cs" Line="1" Column="1" />
+      <File FileName="CommandTest/WaiterTest.cs" Line="38" Column="10" />
+      <File FileName="CommandTest/CustomerTest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CommandPattern" expanded="True">
+            <Node name="CommandPattern" expanded="True">
+              <Node name="Customer.cs" selected="True" />
+            </Node>
+            <Node name="CommandTest" expanded="True">
+              <Node name="Stubs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CommandPattern" expanded="True">
+            <Node name="CommandTest" expanded="True">
+              <Node name="CommandTest" expanded="True">
+                <Node name="UnitTest1" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CommandPattern PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
